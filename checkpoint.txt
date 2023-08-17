@@ -1,0 +1,28 @@
+   +-----------+      +-----------+
+   | Gymnasium |      |   Member  |
+   +-----------+      +-----------+
+   | gym_id    |      | member_id |
+   | name      |      | last_name |
+   | address   |      | first_name|
+   | phone_num |      | address   |
+   +-----------+      | dob       |
+                      | gender    |
+                      +-----------+
+                          |     |
+                          |     |
+                          |     |
+              +----------------------+
+              |     Registers For    |
+              +----------------------+
+              |                     |
+              |                     |
+              |                     |
+          +-------+             +--------+
+          |Session|             | Coach  |
+          +-------+             +--------+
+          |session_id|          | coach_id|
+          |sport_type|          | last_name|
+          |schedule  |          | first_name|
+          +-------+             | age      |
+                                | specialty|
+                                +--------+
